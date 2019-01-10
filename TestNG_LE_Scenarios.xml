@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ERP" parallel="tests" thread-count="3">
+	<listeners>
+		<listener class-name="TestNG.Listener"></listener>
+	</listeners>
+	<test name="LE Tests">
+		<groups>
+			<run>
+				<include name="Logistics" />
+				<include name="AllSettings" />
+				<include name="LESettings" />
+			</run>
+		</groups>
+		<packages>
+			<package name="TestNG.LE"></package>
+			<package name="TestNG.FI"></package>
+			<package name="TestNG.GlobalCustomization"></package>
+		</packages>
+	</test>
+	<parameter name="message" value="Happy New Year!!!"></parameter>
+	<parameter name="wishes" value="All the best for 2019"></parameter>
+
+	<test name="SomeDummy">
+		<groups>
+			<run>
+				<include name="someDummy"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="TestNG.LE.OutboundDeliveries"></class>
+		</classes>
+	</test>
+
+	<test name="data provider">
+		<groups>
+			<run>
+				<include name="dataProvider"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="TestNG.LE.OutboundDeliveries"></class>
+		</classes>
+	</test>
+</suite>
