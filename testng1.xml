@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="1">
+	<test name="1">
+		<parameter name="username" value="testuser_1" />
+		<parameter name="password" value="Test@123" />
+		<groups>
+			<run>
+				<include name="class1">
+				</include>
+			</run>
+		</groups>
+
+		<classes>
+			<class name="TestNG.Maven.Class1"></class>
+		</classes>
+
+	</test>
+	<test name="2">
+			<parameter name="username" value="testuser_1" />
+		<parameter name="password" value="Test@123" />
+	<classes>
+	<class name="TestNG.Maven.Class1"></class>
+		<class name="TestNG.Maven.Class2"></class>
+			<class name="TestNG.Maven.Class3"></class>
+	</classes>
+	</test>
+</suite>

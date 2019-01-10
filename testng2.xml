@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="2">
+	<test name="2">
+
+		<parameter name="username" value="testuser_1" />
+		<parameter name="password" value="Test@123" />
+<!-- <groups>
+<run>
+<include name="class2">
+</include>
+</run>
+</groups> -->
+<packages>
+<package name="TestNG.Maven">
+</package>
+</packages>
+	</test>
+</suite>
