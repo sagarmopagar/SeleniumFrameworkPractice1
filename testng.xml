@@ -2,8 +2,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
-    <classes>
-      <class name="TestNG.Maven.Class3"/>
-    </classes>
+  	<parameter name="username" value="poweruser123"></parameter>
+	<parameter name="password" value="wordpass"></parameter>
+	<packages>
+	<package name="TestNG.Maven"></package>
+	</packages>
+    <!-- <classes>
+      <class name="TestNG.Maven.Class1"/>
+    </classes> -->
   </test> <!-- Test -->
 </suite> <!-- Suite -->

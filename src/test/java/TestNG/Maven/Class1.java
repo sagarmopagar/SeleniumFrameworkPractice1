@@ -11,7 +11,7 @@ public class Class1 {
 		System.out.println("Class1 01 Test with maven surefire plugin");
 		System.out.println(username+"::"+password);
 //		System.out.println(System.getProperty("prop.key"));
-		System.out.println(System.getProperty("browser"));
+//		System.out.println(System.getProperty("browser"));
 		
 	}
 	

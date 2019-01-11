@@ -41,18 +41,18 @@
 						<systemPropertyVariables>
 							<browser>Chrome</browser>
 						</systemPropertyVariables>
-						<groups>class3</groups>
+						<!-- <groups>class3</groups> -->
 						<suiteXmlFiles>
 							<!-- <suiteXmlFile>testng1.xml</suiteXmlFile>
 							<suiteXmlFile>testng2.xml</suiteXmlFile> -->
-							<suiteXmlFile>testng1.xml</suiteXmlFile>
+							<suiteXmlFile>testng.xml</suiteXmlFile>
 						</suiteXmlFiles>
-						<properties>
+						<!-- <properties>
 							<property>
 								<name>testnames</name>
 								<value>2</value>
 							</property>
-						</properties>
+						</properties> -->
 						<testErrorIgnore>false</testErrorIgnore>
 						<testFailureIgnore>false</testFailureIgnore>
 					</configuration>
