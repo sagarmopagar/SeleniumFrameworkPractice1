@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [ERP]" parallel="tests">
+  <parameter name="wishes" value="All the best for 2019"/>
+  <parameter name="message" value="Happy New Year!!!"/>
+  <listeners>
+    <listener class-name="TestNG.Listener"/>
+  </listeners>
+  <test thread-count="3" name="LE Tests(failed)" parallel="tests">
+    <groups>
+      <run>
+        <include name="Logistics"/>
+        <include name="AllSettings"/>
+        <include name="LESettings"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestNG.LE.OutboundDeliveries">
+        <methods>
+          <include name="postGoodsIssueDelivery"/>
+          <include name="createDelivery"/>
+          <include name="billForDelivery"/>
+          <include name="changeDelivery"/>
+        </methods>
+      </class> <!-- TestNG.LE.OutboundDeliveries -->
+    </classes>
+  </test> <!-- LE Tests(failed) -->
+</suite> <!-- Failed suite [ERP] -->

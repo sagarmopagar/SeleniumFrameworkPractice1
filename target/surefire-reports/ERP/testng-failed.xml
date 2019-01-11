@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [ERP]">
+  <test name="Exclude Pattern">
+    <groups>
+      <run>
+        <include name="Eclipse"/>
+      </run>
+    </groups>
+    <packages>
+      <package name="TestNG.LE"/>
+      <package name="TestNG.MM"/>
+    </packages>
+    <classes>
+      <class name="TestNG.LE.LECustomizations"/>
+      <class name="TestNG.LE.LE_V1"/>
+      <class name="TestNG.LE.OutboundDeliveries"/>
+      <class name="TestNG.MM.MM_V1"/>
+    </classes>
+  </test> <!-- Exclude Pattern -->
+</suite> <!-- Failed suite [ERP] -->

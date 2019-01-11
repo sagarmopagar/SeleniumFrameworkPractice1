@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="92" started-at="2019-01-11T05:59:26Z" finished-at="2019-01-11T05:59:26Z">
+    <groups>
+      <group name="class3">
+        <method signature="Class3.class3_01_Test()[pri:0, instance:TestNG.Maven.Class3@402a079c]" name="class3_01_Test" class="TestNG.Maven.Class3"/>
+      </group> <!-- class3 -->
+      <group name="class2">
+        <method signature="Class2.class2_01_Test(java.lang.String, java.lang.String)[pri:0, instance:TestNG.Maven.Class2@6500df86]" name="class2_01_Test" class="TestNG.Maven.Class2"/>
+      </group> <!-- class2 -->
+      <group name="class1">
+        <method signature="Class1.class1_01_Test(java.lang.String, java.lang.String)[pri:0, instance:TestNG.Maven.Class1@271053e1]" name="class1_01_Test" class="TestNG.Maven.Class1"/>
+      </group> <!-- class1 -->
+    </groups>
+    <test name="Test" duration-ms="92" started-at="2019-01-11T05:59:26Z" finished-at="2019-01-11T05:59:26Z">
+      <class name="TestNG.Maven.Class1">
+        <test-method status="PASS" signature="class1_01_Test(java.lang.String, java.lang.String)[pri:0, instance:TestNG.Maven.Class1@271053e1]" name="class1_01_Test" duration-ms="11" started-at="2019-01-11T05:59:26Z" finished-at="2019-01-11T05:59:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[poweruser123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wordpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- class1_01_Test -->
+        <test-method status="PASS" signature="class1_02_Test()[pri:0, instance:TestNG.Maven.Class1@271053e1]" name="class1_02_Test" duration-ms="2" started-at="2019-01-11T05:59:26Z" finished-at="2019-01-11T05:59:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- class1_02_Test -->
+      </class> <!-- TestNG.Maven.Class1 -->
+      <class name="TestNG.Maven.Class2">
+        <test-method status="PASS" signature="class2_01_Test(java.lang.String, java.lang.String)[pri:0, instance:TestNG.Maven.Class2@6500df86]" name="class2_01_Test" duration-ms="11" started-at="2019-01-11T05:59:26Z" finished-at="2019-01-11T05:59:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[poweruser123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wordpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- class2_01_Test -->
+      </class> <!-- TestNG.Maven.Class2 -->
+      <class name="TestNG.Maven.Class3">
+        <test-method status="PASS" signature="class3_01_Test()[pri:0, instance:TestNG.Maven.Class3@402a079c]" name="class3_01_Test" duration-ms="6" started-at="2019-01-11T05:59:26Z" finished-at="2019-01-11T05:59:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- class3_01_Test -->
+        <test-method status="PASS" signature="class3_02_Test()[pri:0, instance:TestNG.Maven.Class3@402a079c]" name="class3_02_Test" duration-ms="2" started-at="2019-01-11T05:59:26Z" finished-at="2019-01-11T05:59:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- class3_02_Test -->
+      </class> <!-- TestNG.Maven.Class3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

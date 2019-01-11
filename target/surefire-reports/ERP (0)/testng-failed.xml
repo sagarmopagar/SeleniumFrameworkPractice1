@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [ERP (0)]" parallel="tests">
+  <parameter name="wishes" value="All the best for 2019"/>
+  <parameter name="message" value="Happy New Year!!!"/>
+  <listeners>
+    <listener class-name="TestNG.Listener"/>
+  </listeners>
+  <test name="LE Tests">
+    <groups>
+      <run>
+        <include name="Logistics"/>
+        <include name="AllSettings"/>
+        <include name="LESettings"/>
+      </run>
+    </groups>
+    <packages>
+      <package name="TestNG.LE"/>
+      <package name="TestNG.FI"/>
+      <package name="TestNG.GlobalCustomization"/>
+    </packages>
+    <classes>
+      <class name="TestNG.LE.LECustomizations"/>
+      <class name="TestNG.LE.LE_V1"/>
+      <class name="TestNG.LE.OutboundDeliveries"/>
+      <class name="TestNG.FI.FI_Tests"/>
+      <class name="TestNG.GlobalCustomization.AllSettings"/>
+    </classes>
+  </test> <!-- LE Tests -->
+  <test name="SomeDummy">
+    <groups>
+      <run>
+        <include name="someDummy"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestNG.LE.OutboundDeliveries"/>
+    </classes>
+  </test> <!-- SomeDummy -->
+  <test name="data provider">
+    <groups>
+      <run>
+        <include name="dataProvider"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestNG.LE.OutboundDeliveries"/>
+    </classes>
+  </test> <!-- data provider -->
+</suite> <!-- Failed suite [ERP (0)] -->

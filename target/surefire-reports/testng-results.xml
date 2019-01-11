@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="1" duration-ms="31" started-at="2019-01-10T17:35:43Z" finished-at="2019-01-10T17:35:43Z">
+    <groups>
+      <group name="class3">
+        <method signature="Class3.class3_01_Test()[pri:0, instance:TestNG.Maven.Class3@735b478]" name="class3_01_Test" class="TestNG.Maven.Class3"/>
+      </group> <!-- class3 -->
+    </groups>
+    <test name="2" duration-ms="31" started-at="2019-01-10T17:35:43Z" finished-at="2019-01-10T17:35:43Z">
+      <class name="TestNG.Maven.Class3">
+        <test-method status="PASS" signature="class3_01_Test()[pri:0, instance:TestNG.Maven.Class3@735b478]" name="class3_01_Test" duration-ms="11" started-at="2019-01-10T23:05:43Z" finished-at="2019-01-10T23:05:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- class3_01_Test -->
+      </class> <!-- TestNG.Maven.Class3 -->
+    </test> <!-- 2 -->
+  </suite> <!-- 1 -->
+</testng-results>

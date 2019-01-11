@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [1]">
+  <test thread-count="5" name="1(failed)">
+    <parameter name="Username" value="testuser_1"/>
+    <parameter name="Password" value="Test@123"/>
+    <groups>
+      <run>
+        <include name="class1"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestNG.Maven.Class1">
+        <methods>
+          <include name="class1_01_Test"/>
+        </methods>
+      </class> <!-- TestNG.Maven.Class1 -->
+    </classes>
+  </test> <!-- 1(failed) -->
+</suite> <!-- Failed suite [1] -->

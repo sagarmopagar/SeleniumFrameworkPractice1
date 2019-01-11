@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: Tests.ClearTrip.HomePage.HomeBasicTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 20.696 s <<< FAILURE! - in Tests.ClearTrip.HomePage.HomeBasicTest
+HomeAssertTitles(Tests.ClearTrip.HomePage.HomeBasicTest)  Time elapsed: 13.513 s  <<< FAILURE!
+java.lang.NullPointerException
+	at Tests.ClearTrip.HomePage.HomeBasicTest.HomeAssertTitles(HomeBasicTest.java:37)
+
